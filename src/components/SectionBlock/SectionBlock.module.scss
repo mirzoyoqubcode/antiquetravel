@@ -1,0 +1,438 @@
+.body {
+  background-image: url(../../images/bg-decor.gif);
+  .wrapper {
+    padding: 5rem 1rem;
+    max-width: 1000px;
+    margin: auto;
+    h1 {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 40px;
+    }
+    .accordion {
+      margin: 20px 0;
+      :hover {
+        background-color: #48cae4;
+      }
+      .answer {
+        background-color: white;
+        :hover {
+          background-color: white;
+        }
+      }
+      // border-bottom: 1px solid #023047;
+      .question {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin: 15px 8px;
+
+        :nth-child(1) {
+          font-size: 25px;
+          color: #023047;
+        }
+      }
+
+      ul > li {
+        list-style: none;
+        margin: 10px 0;
+        &::first-letter {
+          margin-right: 10px;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #48cae4;
+      }
+      .general {
+        .info_general {
+          margin-bottom: 2rem;
+          p {
+            span {
+              font-weight: 700;
+            }
+          }
+        }
+        img {
+          width: 90%;
+          margin: auto;
+        }
+      }
+      .faq1 {
+        display: flex;
+        img {
+          max-width: 400px;
+          height: 300px;
+          margin-right: 15px;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+      .newline {
+        margin-top: 20px;
+      }
+      .faq2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          max-width: 400px;
+          height: 300px;
+        }
+      }
+      .faq3 {
+        display: flex;
+        justify-content: space-between;
+        img {
+          max-width: 500px;
+          margin-right: 30px;
+        }
+      }
+      .faq4 {
+        div {
+          margin: 1rem 0;
+        }
+        .plane {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-right: 30px;
+          }
+        }
+        .carrier {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+        .ticket {
+          display: flex;
+          flex-direction: column;
+        }
+        .airlines {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-right: 30px;
+          }
+        }
+        .trains {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+        .metro {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-right: 30px;
+          }
+        }
+        .buses {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+        .bus {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-right: 30px;
+          }
+        }
+        .taxi {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .faq5 {
+        display: flex;
+        justify-content: space-between;
+        img {
+          max-width: 500px;
+          margin-left: 30px;
+        }
+      }
+      .faq6 {
+        img {
+          max-width: 500px;
+        }
+        p {
+          margin: 1rem 0;
+        }
+      }
+      .faq7 {
+        display: flex;
+        img {
+          max-width: 500px;
+          height: 300px;
+        }
+      }
+      .faq8 {
+        .faq8_img {
+          display: flex;
+          align-items: center;
+        }
+        img {
+          max-width: 400px;
+          border-radius: 20px;
+          margin-right: 1rem;
+        }
+        .links {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1rem;
+          a {
+            margin-bottom: 0.2rem;
+          }
+        }
+      }
+      .faq9 {
+        display: flex;
+        img {
+          max-width: 500px;
+          margin-right: 30px;
+        }
+      }
+      .faq10 {
+        div {
+          display: flex;
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .faq11 {
+        display: flex;
+        img {
+          max-width: 400px;
+          margin-right: 30px;
+        }
+      }
+      .faq12 {
+        display: flex;
+        div {
+          p {
+            margin: 10px 0;
+          }
+        }
+        img {
+          max-width: 400px;
+          margin-left: 30px;
+        }
+      }
+      .faq13 {
+        .register {
+          display: flex;
+          margin-bottom: 1rem;
+          div {
+            p {
+              margin: 15px 0;
+            }
+          }
+          img {
+            max-width: 500px;
+            margin-left: 30px;
+          }
+        }
+      }
+      .faq14 {
+        .flat {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1rem;
+          img {
+            max-width: 500px;
+            margin-right: 30px;
+          }
+        }
+      }
+      .faq15 {
+        .food {
+          display: flex;
+          align-items: center;
+          img {
+            max-width: 400px;
+            margin-right: 20px;
+            margin-bottom: 2rem;
+          }
+        }
+        div {
+          margin-top: 1rem;
+        }
+      }
+      .faq16 {
+        display: flex;
+        img {
+          max-width: 350px;
+          margin-left: 30px;
+        }
+      }
+      .faq17 {
+        img {
+          max-width: 500px;
+          margin-bottom: 1rem;
+        }
+      }
+      .faq18 {
+        display: flex;
+        flex-direction: column;
+        img {
+          max-width: 400px;
+          display: flex;
+          align-self: flex-end;
+        }
+      }
+      .faq19 {
+        p {
+          margin: 10px 0;
+        }
+        img {
+          max-width: 400px;
+        }
+      }
+    }
+    @media screen and (max-width: 1000px) {
+      .wrapper {
+        width: 100%;
+      }
+      .faq1 {
+        flex-direction: column;
+      }
+      .faq2 {
+        flex-direction: column;
+      }
+      .faq2 > img {
+        width: 90%;
+        margin-top: 2rem;
+        object-fit: cover;
+      }
+      .faq3 {
+        flex-direction: column;
+      }
+      .faq3 > img {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+      .plane {
+        flex-direction: column;
+      }
+      .carrier {
+        flex-direction: column;
+      }
+      .carrier > img {
+        margin-top: 1rem;
+        margin-right: 1rem;
+      }
+      .airlines {
+        flex-direction: column;
+      }
+      .trains {
+        flex-direction: column;
+      }
+      .trains > img {
+        margin-top: 1rem;
+        margin-right: 1rem;
+      }
+      .metro {
+        flex-direction: column;
+      }
+      .buses {
+        flex-direction: column;
+      }
+      .buses > img {
+        margin-top: 1rem;
+        margin-right: 1rem;
+      }
+      .bus {
+        flex-direction: column;
+      }
+      .taxi {
+        flex-direction: column;
+      }
+      .faq5 {
+        flex-direction: column;
+      }
+      .faq5 > img {
+        margin-top: 1rem;
+        margin-right: 1rem;
+      }
+      .faq6 > img {
+        width: 100%;
+      }
+      .faq7 {
+        flex-direction: column;
+      }
+      .faq7 > img {
+        margin-top: 1rem;
+      }
+      .faq8_img > img {
+        width: 100%;
+      }
+      .faq9 {
+        flex-direction: column;
+      }
+      .faq9 > img {
+        margin-bottom: 1rem;
+      }
+      .faq10 > div {
+        flex-direction: column;
+      }
+      .faq10 > div > img {
+        margin: 1rem 3rem 1rem 0;
+      }
+      .faq11 {
+        flex-direction: column;
+      }
+      .faq12 {
+        flex-direction: column;
+      }
+      .register {
+        flex-direction: column;
+      }
+      .flat {
+        flex-direction: column;
+        img {
+          width: 100%;
+          margin: auto;
+        }
+      }
+      .food {
+        flex-direction: column;
+      }
+      .food > img {
+        width: 100%;
+      }
+      .faq16 {
+        flex-direction: column;
+      }
+      .faq16 > img {
+        margin: 1rem 2rem 1rem 0;
+      }
+      .faq17 > img {
+        width: 100%;
+      }
+      .faq18 > img {
+        width: 100%;
+      }
+      .faq19 > img {
+        width: 100%;
+      }
+      .hilton {
+        width: 100%;
+      }
+      .faq8_img {
+        flex-direction: column;
+      }
+    }
+  }
+}

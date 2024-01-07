@@ -1,0 +1,22 @@
+.body {
+  .block {
+    width: 390px;
+    text-align: center;
+    padding: 3rem 0;
+    color: #023047;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+
+    &:hover {
+      background-color: #023047;
+      color: white;
+    }
+
+    @media (max-width: 800px) {
+      width: 300px;
+      font-size: 0.8rem;
+    }
+  }
+}

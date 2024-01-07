@@ -1,0 +1,20 @@
+.gallery_viewer {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../../images/bg-decor.gif);
+  img {
+    padding: 1rem;
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}

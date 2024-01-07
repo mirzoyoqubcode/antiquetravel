@@ -1,0 +1,31 @@
+.body {
+  padding: 6rem 1rem;
+  background-image: url(../../images/bg-decor.gif);
+  a {
+    text-decoration: none;
+  }
+  .linkHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    color: #14213d;
+    gap: 10px;
+    font-size: 1.5rem;
+  }
+
+  .linkContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    margin: auto;
+
+    .icon {
+      font-size: 4rem;
+    }
+  }
+}

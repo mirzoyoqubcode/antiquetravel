@@ -1,0 +1,24 @@
+.body {
+  a {
+    text-decoration: none;
+  }
+  .container {
+    border: 1px solid #14213d1a;
+    width: 320px;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: #14213d;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.795);
+
+    &:hover {
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.2rem;
+    }
+  }
+}
