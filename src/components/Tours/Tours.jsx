@@ -8,7 +8,10 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 const Tours = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <Header />
@@ -145,6 +148,9 @@ const Tours = () => {
                   sightseeing the downtown after a short rest.
                 </p>
                 <p>Day 7 Tashkent Departure. End of a trip</p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -403,6 +409,9 @@ const Tours = () => {
                   <li>Tips for guide and driver;</li>
                   <li>Single Supplement room (---USD).</li>
                 </ul>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -737,6 +746,9 @@ const Tours = () => {
                   <li>Tips for guide and driver;</li>
                   <li>Single Supplement room (---- USD).</li>
                 </ul>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -1067,6 +1079,9 @@ const Tours = () => {
                   Breakfast in the hotel at 07.00-09.00. End of the tour
                   Transfer to Tashkent airport
                 </p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -1300,6 +1315,9 @@ const Tours = () => {
                 <h3>DAY 10</h3>
                 <h2>Tashkent-departure </h2>
                 <p>End of the tour. Transfer to the airport, departure. </p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -1566,6 +1584,9 @@ const Tours = () => {
                   <li>International Flight Tickets;</li>
                   <li>Single supplement room (---- USD). </li>
                 </ul>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -1862,6 +1883,9 @@ const Tours = () => {
                 <h3>DAY 12</h3>
                 <h2>Tashkent</h2>
                 <p>Transfer to the airport, departure.</p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -2367,6 +2391,9 @@ const Tours = () => {
                 <h3>DAY 15</h3>
                 <h2>Tashkent</h2>
                 <p>Transfer to Tashkent airport</p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>
@@ -2795,6 +2822,9 @@ const Tours = () => {
                 <h3>DAY 19</h3>
                 <h2>TASHKENT</h2>
                 <p>Transfer to Tashkent airport </p>
+                <Link to={"/book"}>
+                  <button className={style.btn_tours}>{t("booknow")}</button>
+                </Link>
               </Typography>
             </AccordionDetails>
           </Accordion>

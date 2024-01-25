@@ -17,6 +17,20 @@
       margin: 1rem;
       padding: 10px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      .btn_tours {
+        padding: 10px 20px;
+        margin: 10px 0;
+        color: white;
+        background-color: #49cae4;
+        border-radius: 8px;
+        border: 1px solid #49cae4;
+        cursor: pointer;
+        transition: 0.2s all linear;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
     }
     .green {
       color: green;

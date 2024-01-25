@@ -1,0 +1,77 @@
+.wrapper_book {
+  @media screen and (max-width: 800px) {
+    width: 90%;
+    margin: auto;
+    margin: 4rem auto;
+  }
+  width: 67%;
+  margin: 4rem auto;
+  h1,
+  h2 {
+    color: #49cae4;
+  }
+  button {
+    margin: 2rem 0;
+    padding: 10px 15px;
+    background-color: #49cae4;
+    border: 1px solid #49cae4;
+    border-radius: 8px;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+    }
+  }
+  textarea {
+    width: 600px;
+    height: 200px;
+    margin: 10px 0;
+    padding: 8px;
+    @media screen and (max-width: 800px) {
+      width: 90%;
+      margin: auto;
+    }
+  }
+  div {
+    .countries {
+      padding: 8px;
+    }
+  }
+  .input {
+    padding: 8px;
+    margin-right: 10px;
+    @media screen and (max-width: 800px) {
+      margin: 10px 0;
+    }
+  }
+  .label {
+    display: flex;
+
+    div {
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 10px;
+    }
+  }
+  .inputs {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .position {
+      padding: 8px;
+    }
+    @media screen and (max-width: 800px) {
+      .position {
+        max-width: 200px;
+      }
+      flex-direction: column;
+    }
+  }
+  .green {
+    color: green;
+    margin: 8px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+}

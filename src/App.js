@@ -22,12 +22,14 @@ import Khiva from "./Pages/Khiva";
 import Shakhrisabz from "./Pages/Shakhrisabz";
 import Termiz from "./Pages/Termiz";
 import Tashkent from "./Pages/Tashkent";
+import Book from "./components/Book/Book";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/Photo_Gallery" element={<Photo_Gallery />} />
+      <Route path="/book" element={<Book />} />
       <Route path="/Photo_Gallery/cities_gallery" element={<CitiesGallery />} />
       <Route path="/Photo_Gallery/green_gallery" element={<GreenGallery />} />
       <Route

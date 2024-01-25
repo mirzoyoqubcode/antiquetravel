@@ -11,6 +11,22 @@ i18next
     resources: {
       en: {
         translation: {
+          sent: "Your request sent",
+          booknow: "Book now",
+          tourrequest: "Tour Request",
+          contact: "Contact Details",
+          contactinfo:
+            "We use this information solely for the purpose of corresponding regarding your travel.",
+          firstName: "First Name",
+          lastName: "Last Name",
+          citizenship: "Citizenship",
+          Email: "Email",
+          Phone: "Phone",
+          travelInfo: "Travel info",
+          startdate: "Tour start date:",
+          numberTraveller: "Number of Travelers:",
+          comment: "Comments and additional information",
+          sendrequest: "Send Request",
           Home: "Home",
           AboutUs: "About Us",
           Tours: "Tours",
@@ -297,6 +313,22 @@ i18next
       },
       de: {
         translation: {
+          sent: "Uw verzoek verzonden",
+          booknow: "Boek nu",
+          tourrequest: "Rondleiding aanvraag",
+          contact: "Contact details",
+          contactinfo:
+            "Wij gebruiken deze informatie uitsluitend om te corresponderen over uw reis.",
+          firstName: "Voornaam",
+          lastName: "Achternaam",
+          citizenship: "Burgerschap",
+          Email: "E-mail",
+          Phone: "Telefoon",
+          travelInfo: "Reisinformatie",
+          startdate: "Startdatum van de tour:",
+          numberTraveller: "Aantal reizigers:",
+          comment: "Opmerkingen en aanvullende informatie",
+          sendrequest: "Verzend verzoek",
           Home: "Zuhause",
           AboutUs: "über uns",
           Tours: "Touren",
@@ -584,6 +616,22 @@ i18next
       },
       ru: {
         translation: {
+          sent: "Ваш запрос отправлен",
+          booknow: "Забронируйте сейчас",
+          tourrequest: "Послать запрос",
+          contact: "Контактная информация",
+          contactinfo:
+            "Мы используем эту информацию только для переписки о вашей поездке.",
+          firstName: "Имя",
+          lastName: "Фамилия",
+          citizenship: "Гражданство",
+          Email: "Электронная почта",
+          Phone: "телефон",
+          travelInfo: "Информация о путешествии",
+          startdate: "Дата начала тура:",
+          numberTraveller: "Количество путешественников:",
+          comment: "Комментарии и дополнительная информация",
+          sendrequest: "Послать запрос",
           Home: "Главная",
           AboutUs: "O нас",
           Tours: "Туры",
